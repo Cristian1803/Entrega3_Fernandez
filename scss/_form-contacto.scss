@@ -1,0 +1,36 @@
+.formulario {
+    width: 450px;
+    height: 350px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding:30px;
+    border-radius: 10px;
+    background-color: #00000067;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 30px 30px 150px;
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-template-areas: 
+    "... ..."
+    "... ..."
+    "... ..."
+    "... btn";
+    input{
+      background-color: #ffffff;
+      border-radius: 5px;
+     }
+     label{
+      height: 15px;
+      width: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+    button{
+      grid-area: btn;
+      border-radius: 10px;
+      }
+    
+  }
+  
