@@ -6,6 +6,9 @@ ul {
     background-color: black;
     margin-bottom: 0;
     width: 100%;
+    @media (max-width:330px){
+        flex-wrap: nowrap;
+    }
     li a {
         color: #a1a1a1;
         text-decoration: none;

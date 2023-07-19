@@ -17,6 +17,10 @@
         object-fit: cover;
         border-radius: 10px;
     }
+     @media(max-width:768px){
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .parrafo-1 { grid-area: parrafo-1;

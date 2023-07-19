@@ -16,21 +16,53 @@
     "... ..."
     "... ..."
     "... btn";
+    @media(max-width:768px){
+      display: flex;
+      flex-direction: column;
+    }
+    @media(max-width:500px){
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+
     input{
       background-color: #ffffff;
       border-radius: 5px;
+      @media(max-width:768px){
+        border: none;
+      }
      }
      label{
       height: 15px;
       width: 100px;
       display: flex;
       flex-wrap: wrap;
-      
+      @media(max-width:768px){
+        height: 15px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+      }
+      @media(max-width:500px){
+        height: 15px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+      }      
     }
     button{
       grid-area: btn;
       border-radius: 10px;
+      @media(max-width:768px){
+        height: 40px;
       }
-    
-  }
+
+      }
+    }
   
+    @media(max-width:768px){
+      .box-mensaje{
+        height: 80px;
+      }
+      }
