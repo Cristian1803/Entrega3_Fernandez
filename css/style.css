@@ -23,6 +23,9 @@ ul li a {
   font-size: 20px;
   padding: 15px;
 }
+ul li a:hover {
+  color: rgba(255, 0, 0, 0.603);
+}
 
 .titulo-principal {
   color: #ffffff;
@@ -208,6 +211,13 @@ footer {
     height: 200px;
     object-fit: cover;
   }
+}
+
+.servicio {
+  display: grid;
+  grid-template-columns: 400px;
+  justify-content: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
