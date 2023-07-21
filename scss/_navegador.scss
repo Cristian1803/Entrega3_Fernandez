@@ -6,6 +6,26 @@ ul {
     background-color: $bg-nav;
     margin-bottom: 0;
     width: 100%;
+    @media (max-width:768px){
+        top: 0;
+        position: fixed;
+        background-color: black;
+        flex-direction: column;
+        height: 40vh;
+        width: 50vw;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        padding-top: 50px ;
+        top: -500px;
+        border-radius: 5px;
+        transition: 0.5s;
+        &:hover{
+            top: 0px;
+        }
+        
+
+    }
     @media (max-width:330px){
         flex-wrap: nowrap;
     }
@@ -18,3 +38,20 @@ ul {
         color:rgba(255, 0, 0, 0.603);
         }
         }}
+
+.bars{
+    display:none;
+    &:hover + ul{
+        top: 0px;
+    }
+
+    @media (max-width:768px){
+        display: block;
+        background-color: black;
+        color: white;
+        text-align:left;
+        padding: 10px;
+        font-size: 30px;
+        
+    }
+}
