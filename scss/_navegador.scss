@@ -23,8 +23,6 @@ ul {
         &:hover{
             top: 0px;
         }
-        
-
     }
     @media (max-width:330px){
         flex-wrap: nowrap;
@@ -35,9 +33,9 @@ ul {
         font-size: 20px;
         padding: 15px;
         &:hover{
-        color:rgba(255, 0, 0, 0.603);
+        color:rgba(255, 0, 0, 0.603);}
         }
-        }}
+}
 
 .bars{
     display:none;
@@ -51,7 +49,5 @@ ul {
         color: white;
         text-align:left;
         padding: 10px;
-        font-size: 30px;
-        
-    }
+        font-size: 30px;}
 }

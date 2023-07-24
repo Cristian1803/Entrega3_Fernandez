@@ -33,7 +33,7 @@
         border: none;
       }
      }
-     label{
+    label{
       height: 15px;
       width: 100px;
       display: flex;
@@ -59,10 +59,11 @@
       }
 
       }
-    }
+}
   
-    @media(max-width:768px){
-      .box-mensaje{
-        height: 80px;
-      }
-      }
+
+.box-mensaje{
+  @media(max-width:768px){
+    height: 80px;
+  }
+}

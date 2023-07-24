@@ -3,7 +3,6 @@
     font-size: 16px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
     text-align: center;
     gap: 10px 10px;
     grid-auto-flow: row;
@@ -11,26 +10,24 @@
       "parrafo-1  imagen-1"
       "imagen-2  parrafo-2"
       "parrafo-3  imagen-3";
-      img {
+    img{
         width: 100%;
         height: 200px;
         object-fit: cover;
-        border-radius: 10px;
-    }
-     @media(max-width:768px){
+        border-radius: 10px;}
+    @media(max-width:768px){
         display: flex;
-        flex-direction: column;
-    }
+        flex-direction: column;}
 }
 
 .parrafo-1 { grid-area: parrafo-1;
     padding: 30px;}
-  
+
 .imagen-1 { grid-area: imagen-1;}
 
 .parrafo-2 { grid-area: parrafo-2; 
-    padding: 20px;}
-  
+    padding: 20px;}  
+    
 .imagen-2 { grid-area: imagen-2; }
 
 .parrafo-3 { grid-area: parrafo-3;
