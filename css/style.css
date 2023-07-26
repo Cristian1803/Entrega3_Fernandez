@@ -42,12 +42,12 @@ ul {
     top: 0px;
   }
 }
-@media (max-width: 330px) {
+@media (max-width: 400px) {
   ul {
     flex-wrap: nowrap;
     height: 30vh;
     width: 50vw;
-    padding-top: 40px;
+    padding-top: 35px;
     padding-right: 10px;
   }
 }
@@ -251,7 +251,7 @@ ul li a:hover {
 @media (max-width: 330px) {
   .carousel-item {
     width: 100%;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
   }
 }

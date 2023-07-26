@@ -25,11 +25,11 @@ ul {
             top: 0px;
         }
     }
-    @media (max-width:330px){
+    @media (max-width:400px){
         flex-wrap: nowrap;
         height: 30vh;
         width: 50vw;
-        padding-top: 40px ;
+        padding-top: 35px ;
         padding-right: 10px;
     }
     li a {
