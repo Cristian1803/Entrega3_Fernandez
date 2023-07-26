@@ -27,6 +27,10 @@ ul {
     }
     @media (max-width:330px){
         flex-wrap: nowrap;
+        height: 30vh;
+        width: 50vw;
+        padding-top: 40px ;
+        padding-right: 10px;
     }
     li a {
         color: #a1a1a1;

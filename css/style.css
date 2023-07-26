@@ -45,6 +45,10 @@ ul {
 @media (max-width: 330px) {
   ul {
     flex-wrap: nowrap;
+    height: 30vh;
+    width: 50vw;
+    padding-top: 40px;
+    padding-right: 10px;
   }
 }
 ul li a {
